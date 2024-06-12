@@ -7,7 +7,7 @@ def check_brackets(brackets_row: str) -> bool:
     :return: True, если последовательность корректна, False в противном случае
     """
     list_brackets = []
-    ...  # TODO реализовать проверку скобочной группы
+     # TODO реализовать проверку скобочной группы
     try:
         for element in brackets_row:
             if element == "(":
