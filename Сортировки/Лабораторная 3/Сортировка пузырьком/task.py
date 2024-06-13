@@ -3,7 +3,7 @@ from typing import Sequence
 
 def sort(container: Sequence[int]) -> Sequence[int]:
     for value in container:
-        for value
+        for valu
 
 
     """
