@@ -7,61 +7,61 @@ files:
     length: 15
     placeholder_text: "...  # TODO инициализировать список"
     initial_state:
-      length: 35
-      offset: 204
+      length: 15
+      offset: 156
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '...'
   - offset: 357
     length: 57
     placeholder_text: "...  # TODO реализовать метод enqueue"
     initial_state:
-      length: 37
-      offset: 418
+      length: 57
+      offset: 357
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '...'
   - offset: 644
     length: 110
     placeholder_text: "...  # TODO реализовать метод dequeue"
     initial_state:
-      length: 37
-      offset: 679
+      length: 110
+      offset: 644
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '...'
   - offset: 1404
     length: 29
     placeholder_text: "...  # TODO реализовать метод peek"
     initial_state:
-      length: 34
-      offset: 1198
+      length: 29
+      offset: 1404
     initialized_from_dependency: false
     selected: false
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '...'
   - offset: 1546
     length: 30
     placeholder_text: "...  # TODO реализовать метод clear"
     initial_state:
-      length: 35
-      offset: 1304
+      length: 30
+      offset: 1546
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '...'
   - offset: 1695
     length: 85
     placeholder_text: "...  # TODO реализовать метод __len__"
     initial_state:
-      length: 37
-      offset: 1420
+      length: 85
+      offset: 1695
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '...'
   text: |
     """
@@ -199,9 +199,12 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Failed
+- name: h.py
+  visible: true
+  learner_created: true
+status: Solved
 feedback:
-  message: Error
-  time: "Wed, 05 Jun 2024 18:56:11 UTC"
+  message: Congratulations!
+  time: "Wed, 12 Jun 2024 07:34:10 UTC"
 record: -1
 solution_hidden: false

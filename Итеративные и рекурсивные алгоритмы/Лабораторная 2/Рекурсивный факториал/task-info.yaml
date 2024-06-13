@@ -3,7 +3,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 203
+  - offset: 319
     length: 66
     placeholder_text: "...  # TODO реализовать рекурсивный алгоритм нахождения фак\
       ториала"
