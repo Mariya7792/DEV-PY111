@@ -22,6 +22,7 @@ def stairway_path(count_stairs: int) -> List[int]:
     count_path[1] = 1
 
     for current_step in range(2, count_stairs + 1):
+        print(current_step)
         count_path[current_step] = count_path[current_step - 1] + count_path[current_step - 2]
 
     return count_path
