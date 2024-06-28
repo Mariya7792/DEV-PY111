@@ -2,9 +2,9 @@ from typing import Sequence
 
 
 def sort(container: Sequence[int]) -> Sequence[int]:
-    lenght = len(container)
-    for index1 in range(lenght - 1):
-        for index2 in range(index1 + 1, lenght):
+    length = len(container)
+    for index1 in range(length - 1):
+        for index2 in range(index1 + 1, length):
             if container[index1] > container[index2]:
                 container[index2], container[index1] = container[index1], container[index2]
     return container
