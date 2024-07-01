@@ -31,6 +31,5 @@ def car_paths(n: int, m: int) -> List[List[int]]:
 
 if __name__ == '__main__':
     paths = car_paths(4, 2)
-    print(paths)
     print(paths[-1][-1])  # 7
 
